@@ -1,0 +1,18 @@
+{
+"manifest_version": 2,
+
+
+"name": "Click This",
+"descrption": "Pop it like its hot.",
+"version": "1.0",
+"author": "Matt lenz",
+"browser_action": {
+  "default_icon": "icon.png",
+  "default_popup": "popup.html",
+  "default_title": "Slack Alert"
+},
+
+"permissions": [
+    "activeTab"
+  ]
+}
